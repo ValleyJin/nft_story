@@ -26,7 +26,22 @@ The service procedure is as follows:
 
 10. The user’s NFT image is placed on the lower layer, and the GemSTON image is placed on the upper layer using HTML Canvas code to create a composite image.
 
-## 2. Installation
+## 2. Structure
+
+Tech stack
+* Frontend: React.js (Next.js)
+* Backend: Node.js (API routing)
+* Blockchain: Metamask wallet connection & TON token staking
+* Generative AI: Storyline and image generation via OpenAI API
+* NFT images combined with GemSTON image : HTML Canvas
+
+Primary files 
+* pages/index.js: Metamask connection and NFTs' URL input
+* components/HistoryGenerator.js: Community's scenario generation
+* components/CanvasMerger.js: NFT images combined with GemSTON image
+* api/generatePersona.js: OpenAI API call
+
+## 3. Installation
 
 <br>
 <br>
@@ -63,4 +78,19 @@ The service procedure is as follows:
 10. 가입자의 보유 NFT 그림이  HTML Canvas 코드를 활용하여 하위 레이어에, GemSTON 그림은 상위 레이어에 위치하는 형태로 하여 하나의 그림으로 합성한다. 
 
 
-## 2. 설치
+## 2. 프로젝트 구조
+
+기술 스택 
+* Frontend: React.js (Next.js 기반)
+* Backend: Node.js (API 라우팅)
+* Blockchain: Metamask를 통해 지갑 연결 및 TON 토큰 스테이킹
+* AI 서비스: OpenAI API를 통해 스토리 및 이미지 생성
+* GemSTON 이미지와 결합된 NFT 이미지 생성 : HTML Canvas
+
+주요 파일
+* pages/index.js: Metamask 연결 및 NFT 업로드
+* components/HistoryGenerator.js: 켜뮤니티 시나리오 생성
+* components/CanvasMerger.js: 커뮤니티 NFT + GemSTON 이미지 합성
+* api/generatePersona.js: OpenAI API와 통신
+
+## 3. 설치
